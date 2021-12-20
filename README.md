@@ -5,7 +5,7 @@ Typing animation for webpage titles. Tiny, simple and ~~useless~~
 
 ## Usage
 ```js
-window.newTitleType('hello').then(() => {
+TitleType('hello').then(() => {
   console.log('title animation created!')
 }).catch(() => {
   alert('failed to do title animation')
