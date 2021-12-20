@@ -1,4 +1,4 @@
-exports.TitleType = function(str) {
+exports.TitleType = async function(str) {
     return new Promise((resolve, reject) => {
     if (typeof str != 'string' || !str) {
         reject(
